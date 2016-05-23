@@ -1,0 +1,186 @@
+/* CSS STYLES for my website. - Chi Señires */
+/* Last modified: 23 May 2016 */
+
+@font-face {
+  font-family: 'Letter Gothic';
+  src: url('../fonts/LetterGothicStd.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.ttc') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  background-color: #3D2D2D;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #E0E0E0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Letter Gothic', monospace;
+  margin: 0.5em 0;
+}
+
+p {
+  margin-bottom: 0.75em;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: #AF1616;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+  #dialog {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+    #img-circle {
+      background-image: url('../img/chisquare.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 10em;
+      height: 10em;
+      border-radius: 50%;
+      margin: 2em 2em 0;
+    }
+
+    #dialog-box {
+      background-color: #E0E0E0;
+      color: #3D2D2D;
+      padding: 1.25em;
+      width: 50%;
+      line-height: 125%;
+      border-radius: 10px;
+      font-size: 1.5em;
+      position: relative;
+    }
+
+      #dialog-box::before {
+        content: " ";
+        position: absolute;
+        width: 20px;
+        height: 0;
+        left: -18%;
+        bottom: 15%;
+        border-width: 14px 22px;
+        border-style: solid;
+        border-color: transparent #E0E0E0 transparent transparent;
+      }
+
+    #contact-buttons {
+      position: absolute;
+      width: 50%;
+      bottom: 0;
+      left: 40%;
+    }
+
+      .button-circle {
+        padding: 0.75em;
+        background-color: #3D2D2D;
+        border: 5px solid transparent;
+        color: #E0E0E0;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0.25em;
+        transition: 200ms;
+      }
+
+      .button-circle:hover {
+        background-color: transparent;
+        border: 5px solid #E0E0E0;
+      }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+  }
+
+    .nav-item {
+      width: 30%;
+      margin: 1em 2em;
+      padding: 1em;
+      text-align: center;
+      background-color: transparent;
+      text-decoration: none;
+      color: #E0E0E0;
+      transition: 400ms;
+      letter-spacing: 3px;
+      border-radius: 10px;
+    }
+
+      .nav-item:hover {
+        background-color: #3D2D2D;
+      }
+
+/* MAIN STYLES */
+main {
+  width: 100%;
+}
+
+  main > div {
+    width: 100%;
+    padding: 2.5em 10em;
+    display: flex;
+  }
+
+  #about {
+    align-items: flex-start;
+  }
+
+    #my-image {
+      border-radius: 10px;
+      width: 25%;
+      margin-right: 2.5em;
+    }
+
+  #projects {
+    background-color: #995858;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+    .project-box {
+      background-position: center -5px;
+      background-size: 120%;
+      display: block;
+      margin: 2em auto;
+      padding: 10em 0 0;
+      background-color: #E0E0E0;
+      color: #3D2D2D;
+      width: 40%;
+      border-radius: 10px;
+      font-family: 'Avenir', sans-serif;
+      text-decoration: none;
+    }
+
+      .project-details {
+        background-color: rgba(255,255,255,0.8);
+        width: 100%;
+        padding: 1em 2em;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
