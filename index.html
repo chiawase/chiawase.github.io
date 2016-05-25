@@ -87,12 +87,8 @@
   $(window).bind('scroll', function () {
     if ($(window).scrollTop() > height) {
       $('nav').addClass('fixed');
-      // if ($(window).scrollTop() > height + navHeight/2) {
-      //   // $('#about, #projects').css({'padding-top': navHeight});
-      // }
     } else {
       $('nav').removeClass('fixed');
-        // $('main').animate({'padding-top': navHeight}, 800);
       $('#about').css({'padding-top': navHeight});
     }
   });
@@ -102,7 +98,6 @@
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (this.hash == '#about') {
-        // $('main').animate({'padding-top': navHeight}, 800);
         $('#about').animate({'padding-top': navHeight*2}, 800);
       }
       if (target.length) {
