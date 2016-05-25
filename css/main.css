@@ -27,10 +27,24 @@ html, body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Letter Gothic', monospace;
-  margin: 0.5em 0;
 }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+  }
+
+  a {
+    color: #fff;
+    transition: 100ms;
+  }
+
+    a:hover {
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #3D2D2D;
+    }
 
 p {
   margin-bottom: 0.75em;
@@ -97,7 +111,7 @@ header {
     }
 
       .button-circle {
-        padding: 0.75em;
+        padding: 0.6em 0.75em;
         background-color: #3D2D2D;
         border: 5px solid transparent;
         color: #E0E0E0;
@@ -117,7 +131,15 @@ header {
     display: flex;
     justify-content: center;
     align-self: flex-end;
+    background-color: #AF1616;
   }
+
+    nav.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 6;
+    }
 
     .nav-item {
       width: 30%;
@@ -130,6 +152,7 @@ header {
       transition: 400ms;
       letter-spacing: 3px;
       border-radius: 10px;
+      font-family: 'Letter Gothic', monospace;
     }
 
       .nav-item:hover {
@@ -168,19 +191,33 @@ main {
       background-size: 120%;
       display: block;
       margin: 2em auto;
-      padding: 10em 0 0;
+      padding: 20em 0 0;
       background-color: #E0E0E0;
       color: #3D2D2D;
       width: 40%;
       border-radius: 10px;
       font-family: 'Avenir', sans-serif;
       text-decoration: none;
+      transition: 400ms ease-in-out;
+      position: relative;
     }
 
       .project-details {
+        position: absolute;
         background-color: rgba(255,255,255,0.8);
         width: 100%;
+        bottom: 0;
         padding: 1em 2em;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        transition: 400ms ease-in-out;
+      }
+
+    .project-box:hover {
+      background-size: 130%;
+      background-position: center -10px;
+    }
+
+      .project-box:hover .project-details {
+        background-color: rgba(255,255,255,1);
       }

@@ -50,35 +50,71 @@
 
     <div id="projects">
       <h1 style="width: 100%; text-align: center;">Past Projects</h1>
-      <a href="#" class="project-box" style="background-image: url('img/projects-CompSAt.png');">
+      <a href="http://compsat.org" class="project-box" style="background-image: url('img/projects-CompSAt.png');">
         <div class="project-details">
           <h2 class="project-title">CompSAt Website</h2>
-          <p class="project-description">This is a website for some group that I made during my time as an intern in some company.</p>
+          <p class="project-description">I helped redesign my home organization's official website. I did most of the front-end design and the graphics.</p>
         </div>
       </a>
 
-      <a href="#" class="project-box" style="background-image: url('img/projects-DueNow.png');">
+      <a href="http://compsat.github.io/bh2016-iceps/" class="project-box" style="background-image: url('img/projects-DueNow.png');">
         <div class="project-details">
           <h2 class="project-title">Due Now</h2>
-          <p class="project-description">This is a website for some group that I made during my time as an intern in some company.</p>
+          <p class="project-description">This is a prototype for a web application me and my friends did for CompSAt's first hackathon, Blue Hacks.</p>
         </div>
       </a>
 
-      <a href="#" class="project-box" style="background-image: url('img/projects-eBayanihan.png');">
+      <a href="http://ebayanihan.ateneo.edu/" class="project-box" style="background-image: url('img/projects-eBayanihan.png');">
         <div class="project-details">
           <h2 class="project-title">eBayanihan Landing Page</h2>
-          <p class="project-description">This is a website for some group that I made during my time as an intern in some company.</p>
+          <p class="project-description">I made the landing page for eBayanihan during my internship as a junior web developer at Ateneo Java Wireless Competency Center (AJWCC).</p>
         </div>
       </a>
 
-      <a href="#" class="project-box" style="background-image: url('img/projects-Wildcard.png');">
+      <a href="http://wildcard.compsat.org/" class="project-box" style="background-image: url('img/projects-Wildcard.png');">
         <div class="project-details">
           <h2 class="project-title">Wildcard</h2>
-          <p class="project-description">This is a website for some group that I made during my time as an intern in some company.</p>
+          <p class="project-description">I redesigned the design for CompSAt's official online publication, Wildcard.</p>
         </div>
       </a>
+      <div style="width: 100%; text-align: center;">Want me to make a website for you? Send me an e-mail at <a href="mailto:chi.senires@gmail.com">chi.senires@gmail.com</a>.</div>
     </div>
   </main>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+  var height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - navHeight; // from http://stackoverflow.com/questions/1248081/get-the-browser-viewport-dimensions-with-javascript
+  $(window).bind('scroll', function () {
+    if ($(window).scrollTop() > height) {
+      $('nav').addClass('fixed');
+      // if ($(window).scrollTop() > height + navHeight/2) {
+      //   // $('#about, #projects').css({'padding-top': navHeight});
+      // }
+    } else {
+      $('nav').removeClass('fixed');
+        // $('main').animate({'padding-top': navHeight}, 800);
+      $('#about').css({'padding-top': navHeight});
+    }
+  });
 
+  $('a[href*="#"]:not([href="#"])').click(function () {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (this.hash == '#about') {
+        // $('main').animate({'padding-top': navHeight}, 800);
+        $('#about').animate({'padding-top': navHeight*2}, 800);
+      }
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        location.hash = this.hash;
+        return false;
+      }
+    }
+
+  });
+  </script>
 </body>
 </html>
