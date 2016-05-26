@@ -221,3 +221,102 @@ main {
       .project-box:hover .project-details {
         background-color: rgba(255,255,255,1);
       }
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #dialog {
+    width: 80%;
+  }
+
+    #dialog-box::before {
+      left: -2.5em;
+    }
+
+  #contact-buttons {
+    width: 100%;
+    position: relative;
+  }
+
+  #about {
+    padding: 8em 4em 4em !important;
+  }
+
+    #my-image {
+      width: 25%;
+    }
+
+  #projects {
+    padding: 2em;
+  }
+    .project-box {
+      width: 40%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+  #dialog {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    #img-circle {
+      margin-bottom: 2em;
+    }
+
+    #dialog-box {
+      font-size: 1.25em;
+      width: 80%;
+    }
+
+      #dialog-box::before {
+        display: none;
+      }
+
+    #contact-buttons {
+      position: relative;
+      width: 100%;
+      margin: 1em auto;
+      padding: 1em 0;
+      left: 0;
+      text-align: center;
+      height: 2.5em;
+    }
+
+      .button-circle {
+        padding: 0.2em 0.4em;
+      }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+    nav .nav-item {
+      width: 100%;
+      margin: 0.5em;
+      padding: 0.75em;
+    }
+
+  main > div {
+    display: block;
+  }
+
+    #about, #projects {
+      padding: 4em 1em 1em !important;
+    }
+
+    #my-image {
+      -webkit-clip-path: inset(20% 0% 20% 0% round 10% 10%);
+              clip-path: inset(20% 0% 20% 0% round 10% 10%);
+      width: 100%;
+    }
+
+    #text {
+      margin-top: -4em;
+    }
+
+    .project-box {
+      width: 100%;
+      margin: 3em auto;
+    }
+}
