@@ -1,5 +1,5 @@
 /* CSS STYLES for my website. - Chi Señires */
-/* Last modified: 23 May 2016 */
+/* Last modified: 27 May 2016 */
 
 @font-face {
   font-family: 'Letter Gothic';
@@ -54,20 +54,36 @@ p {
 header {
   background-color: #AF1616;
   height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
   #dialog {
     position: relative;
     margin: 0 auto;
     width: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
     #img-circle {
@@ -128,9 +144,15 @@ header {
 
   nav {
     width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-self: flex-end;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
     background-color: #AF1616;
   }
 
@@ -167,11 +189,15 @@ main {
   main > div {
     width: 100%;
     padding: 2.5em 10em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
 
   #about {
-    align-items: flex-start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 
     #my-image {
@@ -182,8 +208,12 @@ main {
 
   #projects {
     background-color: #995858;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
     .project-box {
@@ -256,8 +286,12 @@ main {
 @media screen and (max-width: 760px) {
   #dialog {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
     #img-circle {
@@ -288,7 +322,9 @@ main {
       }
 
   nav {
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
     nav .nav-item {
