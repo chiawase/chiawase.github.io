@@ -121,25 +121,27 @@ header {
 
     #contact-buttons {
       position: absolute;
-      width: 50%;
+      width: 100%;
       bottom: 0;
       left: 40%;
     }
 
-      .button-circle {
-        padding: 0.6em 0.75em;
-        background-color: #3D2D2D;
-        border: 5px solid transparent;
+      #contact-buttons a {
         color: #E0E0E0;
-        border-radius: 50%;
-        text-align: center;
-        margin: 0.25em;
+      }
+
+      .fa-circle {
+        color: #3D2D2D;
         transition: 200ms;
       }
 
-      .button-circle:hover {
+      #contact-buttons a:hover {
         background-color: transparent;
-        border: 5px solid #E0E0E0;
+        color: #fff;
+      }
+
+      #contact-buttons a:hover .fa-circle {
+        color: #562929;
       }
 
   nav {
