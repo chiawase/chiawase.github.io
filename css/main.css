@@ -27,9 +27,45 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
-  font-family: 'Anonymous Pro', monospace;
-  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  font-weight: normal;
 }
+
+a {
+  text-decoration: none;
+  color: #870000;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+  a:hover, a:focus {
+    border-bottom-color: #870000;
+  }
+
+header {
+  height: 100%;
+  padding: 1em;
+  margin-left: 1em;
+  position: fixed;
+  width: 20vw;
+}
+
+  #face {
+    -webkit-clip-path: circle(50% at center);
+    clip-path: circle(50% at center);
+    width: 100%;
+  }
+
+  nav {
+    margin-top: 1em;
+    line-height: 2em;
+  }
+
+    nav a {
+      float: right;
+      clear: right;
+    }
