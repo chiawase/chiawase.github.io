@@ -30,6 +30,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 14px;
+  overflow-x: hidden;
   color: #333;
 }
 
@@ -144,6 +145,8 @@ aside .small-text {
   width: 75%;
   margin-left: 25%;
   padding: 2em 4em;
+  min-height: 100vh;
+  height: auto;
 }
 
 #main .heading {
@@ -153,15 +156,66 @@ aside .small-text {
 }
 
 #main .heading::before {
-  content: "- - - - - - [ ";
+  content: "- - - - - - - - [ ";
   display: inline-block;
   color: #333;
   margin-right: 0.75em;
 }
 
 #main .heading::after {
-  content: " ] - - - - - -";
+  content: " ] - - - - - - - -";
   display: inline-block;
   color: #333;
   margin-left: 0.75em;
+}
+
+#main .projects {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projects .project {
+  width: 90%;
+  margin: 2em;
+  display: flex;
+}
+
+.project .project-preview {
+  display: block;
+  background-size: cover;
+  background-position: top center;
+  width: 40%;
+  height: 12em;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 6px 2.5px rgba(0,0,0,0.25);
+  flex-grow: 1;
+  order: 1;
+}
+
+.project .project-info {
+  display: block;
+  margin: 1em 2em;
+  width: 50%;
+  flex-grow: 1;
+  order: 2;
+}
+
+.project:nth-of-type(even) .project-preview { order: 2; }
+.project:nth-of-type(even) .project-info { order: 1; }
+
+.project .project-name {
+  color: #870000;
+}
+
+.project .project-description {
+  margin-bottom: 2em;
+}
+
+.project .project-link {
+  color: #870000;
+}
+
+.project .project-link:hover, .project .project-link:focus {
+  border-bottom-color: #870000;
 }
