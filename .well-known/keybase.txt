@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chisenires
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chisenires.ph
+  * I am chisenires (https://keybase.io/chisenires) on keybase.
+  * I have a public key ASDxleFiqb_5HQzVKKOCsMbevn225NLM2vAcLcmeCyMYQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f195e162a9bff91d0cd528a382b0c6debe7db6e4d2ccdaf01c2dc99e0b2318400a",
+      "host": "keybase.io",
+      "kid": "0120f195e162a9bff91d0cd528a382b0c6debe7db6e4d2ccdaf01c2dc99e0b2318400a",
+      "uid": "f2071789b309f6cd7256eeeed9309619",
+      "username": "chisenires"
+    },
+    "merkle_root": {
+      "ctime": 1591523502,
+      "hash": "b8de0c41c9a78783aa7006a3acb1fc626b02cfdf0cd1a7b625b0eaabbab1697e30dfac47a628f1eebf1302df571c756368d1245c0ad0933aa467d60cba140859",
+      "hash_meta": "51a070cea86af1fc74245477c06d53a8a4e928cfeba42614c9e7a0c240764c81",
+      "seqno": 16570988
+    },
+    "service": {
+      "entropy": "fYzi84fhL5ZoZA0L3zkJspyt",
+      "hostname": "chisenires.ph",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1591523516,
+  "expire_in": 504576000,
+  "prev": "0e1e22146b38836d59ab02aaeb30a6e00e8756549b238aac150c51fe0d4b7bbd",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8ZXhYqm/+R0M1SijgrDG3r59tuTSzNrwHC3JngsjGEAKp3BheWxvYWTESpcCBsQgDh4iFGs4g21ZqwKq6zCm4A6HVlSbI4qsFQxR/g1Le73EIH8HHlK/DQegeowj3MVWC01bGePaEARcYDe6Af/tXYFmAgHCo3NpZ8RAd2PO7AC0igdAg8Hsp0te/1FO1THkjZ+dFYAa6Yl1+wDNx00iMLP41h/POUdDmuCSq/FvwOXMHzYXBi76Jet6CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHb/fGq6zbP6sRL4y1pbGr3u07jAjcMhUGdlTm+WRfLNo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chisenires
+
+==================================================================
