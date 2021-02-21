@@ -2,29 +2,34 @@
 <html lang="en-US">
   {% include head.html %}
   <body>
-    {% include heading-card.html %}
+    <div class="top bg-accent"></div>
+    <main class="wrapper">
+      {% include heading-card.html %}
 
-    <section id="about-me">
-      <h2>About me</h2>
-      {{ content }}
-    </section>
+      <section id="about-me">
+        <h2>About me</h2>
+        <div class="section-content">{{ content }}</div>
+      </section>
 
-    <section id="featured-work">
-      <h2>Stuff I’ve worked on</h2>
-      {% include featured-work.html %}
-    </section>
+      <section id="featured-work">
+        <h2>Stuff I’ve worked on</h2>
+        <div class="section-content">{% include featured-work.html %}</div>
+      </section>
 
-    <section id="past-talks">
-      <h2>My past talks</h2>
-      {% include past-talks.html %}
-    </section>
+      <section id="past-talks">
+        <h2>My past talks</h2>
+        <div class="section-content">{% include past-talks.html %}</div>
+      </section>
 
-    <section id="contact">
-      <h2>Want to chat?</h2>
-      <div class="content">
-        <p>Feel free to send me a message at <a href="mailto:chi.senires@gmail.com">chi.senires@gmail.com</a>!</p>
-        <p>I would love to hear from you! I’m currently free to accept side projects, either for design work or web development work, or speaking engagements related to UX design.</p>
-      </div>
-    </section>
+      <section id="contact">
+        <h2>Want to chat?</h2>
+        <div class="section-content">
+          <p>Feel free to send me a message at <a href="mailto:chi.senires@gmail.com">chi.senires@gmail.com</a>!</p>
+          <p>I would love to hear from you! I’m currently free to accept side projects, either for design work or web development work, or speaking engagements related to UX design.</p>
+        </div>
+      </section>
+      <footer>Made with ♥ by me!</footer>
+    </main>
+    <div class="bottom bg-accent"></div>
   </body>
 </html>
