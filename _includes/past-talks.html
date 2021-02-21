@@ -1,0 +1,11 @@
+{% if site.data.talks %}
+  {% for talk in site.data.talks %}
+  <div class="talks">
+    <div class="talk">
+      <h3 class="talk-title">{{ talk.title }}</h3>
+      <div class="talk-info">{{ talk.date }}, {{ talk.location }}</div>
+      <div class="talk-description">{{ talk.description }}</div>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
