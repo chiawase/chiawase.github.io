@@ -1,7 +1,7 @@
 #_data/social-media-links.yml
 - name: OneLife.PH
   url: https://www.onelife.ph
-  labels:
+  tags:
     - UX Design
     - product management
   description: |
@@ -9,14 +9,14 @@
   preview_img: assets/project-preview-01.png
 - name: NBA.com Philippines website
   url: https://nba.smart.com.ph
-  labels: 
+  tags: 
     - web design
   description: | 
     Handled the design for the Philippine portal for the NBA.com website. Launched on February 2021.
   preview_img: assets/project-preview-02.png
 - name: Blake’s Wings & Steaks website
   url: https://blakes.ph
-  labels: 
+  tags: 
     - web development
     - WordPress
   description: |
@@ -24,13 +24,13 @@
   preview_img: assets/project-preview-03.png
 - name: YouTube Video End Screen Template
   url: http://figma.fun/AmoAcR
-  labels: 
+  tags: 
     - Figma community file
   description: |
     Made a simple Figma Community File to serve as a YouTube end screen generator.
   preview_img: assets/project-preview-04.png
 # - name: 
 #   url: 
-#   labels: 
+#   tags: 
 #   description: 
 #   preview_img: 

@@ -1,42 +1,41 @@
 #_data/social-media-links.yml
-- title: twitter
+- title: Twitter
   url: https://twitter.com/ChiSenires
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="akar-icons:twitter-fill" style="color: #9d0713; font-size: 24px;"></span>
-- title: linkedin
+    <span class="iconify" data-inline="false" data-icon="akar-icons:twitter-fill" style="font-size: 24px;"></span>
+- title: LinkedIn
   url: http://www.linkedin.com/in/chisenires
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill" style="color: #9d0713; font-size: 24px;"></span>
-- title: strava
+    <span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill" style="font-size: 24px;"></span>
+- title: Strava
   url: http://strava.com/athletes/40002012/
   iconify: | 
-    <span class="iconify" data-inline="false" data-icon="cib:strava" style="color: #9d0713; font-size: 24px;"></span>
-- title: twitch
+    <span class="iconify" data-inline="false" data-icon="cib:strava" style="font-size: 24px;"></span>
+- title: Twitch
   url: http://twitch.tv/ChiAwase
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="bi:twitch" style="color: #9d0713; font-size: 24px;"></span>
-- title: dribbble
+    <span class="iconify" data-inline="false" data-icon="bi:twitch" style="font-size: 24px;"></span>
+- title: Dribbble
   url: https://dribbble.com/chisenires
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="akar-icons:dribbble-fill" style="color: #9d0713; font-size: 24px;"></span>
-- title: behance
+    <span class="iconify" data-inline="false" data-icon="akar-icons:dribbble-fill" style="font-size: 24px;"></span>
+- title: Behance
   url: http://be.net/chisenires
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="ant-design:behance-circle-filled" style="color: #9d0713; font-size: 24px;"></span>
+    <span class="iconify" data-inline="false" data-icon="ant-design:behance-circle-filled" style="font-size: 24px;"></span>
 - title: Facebook
   url: http://fb.com/ChiAwase
   iconify: | 
-    <span class="iconify" data-inline="false" data-icon="akar-icons:facebook-fill" style="color: #9d0713; font-size: 24px;"></span>
-- title: github
+    <span class="iconify" data-inline="false" data-icon="akar-icons:facebook-fill" style="font-size: 24px;"></span>
+- title: Github
   url: https://github.com/chiawase
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill" style="color: #9d0713; font-size: 24px;"></span>
-- title: medium
+    <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill" style="font-size: 24px;"></span>
+- title: Medium
   url: https://medium.com/@chisenires
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="ant-design:medium-square-filled" style="color: #9d0713; font-size: 24px;"></span>
-
+    <span class="iconify" data-inline="false" data-icon="ant-design:medium-square-filled" style="font-size: 24px;"></span>
 - title: chi.senires@gmail.com
   url: 'mailto:chi.senires@gmail.com'
   iconify: |
-    <span class="iconify" data-inline="false" data-icon="carbon:email" style="color: #9d0713; font-size: 24px;"></span>
+    <span class="iconify" data-inline="false" data-icon="carbon:email" style="font-size: 24px;"></span>
