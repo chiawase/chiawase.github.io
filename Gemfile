@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gen 'jekyll'
+gem 'jekyll'
 gem 'github-pages'
