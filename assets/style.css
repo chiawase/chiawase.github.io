@@ -418,3 +418,9 @@ footer {
 .project:hover .project-preview {
   opacity: 1;
 }
+
+@media screen and (max-width: 30rem) {
+  .project .project-preview {
+    opacity: 1;
+  }
+}
