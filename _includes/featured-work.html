@@ -1,0 +1,15 @@
+{% if site.data.projects %}
+<div class="projects">
+  {% for project in site.data.projects %}
+  <div class="project">
+    <h3 class="project-name">{{ project.name }}</h3>
+    <div class="project-tags">
+      {% for tag in project.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}
+    </div>
+    <a href="{{ project.url }}" class="project-link">{{ project.url }}</a>
+    <p class="project-description">{{ project.description }}</p>
+    <img src="{% link {{project.preview_img}} %}" alt="" class="project-preview">
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

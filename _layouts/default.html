@@ -2,22 +2,29 @@
 <html lang="en-US">
   {% include head.html %}
   <body>
-    <div class="container">
-      <!-- <p>Why is this page looking so simple? It's <a href="https://css-naked-day.github.io">CSS Naked Day</a>!</p> -->
-      <hr>
+    {% include heading-card.html %}
+
+    <section id="about-me">
+      <h2>About me</h2>
       {{ content }}
+    </section>
 
-      {% if site.data.social-media-links %}
-        <p class="links">
-        {% for link in site.data.social-media-links %}
-          <a href="{{ link.url }}" class="{{ link.title }}" title="{{ link.title }}">{{ link.iconify }}</a> {% if forloop.last == false %}&#8226;{% endif %}
-        {% endfor %}
-        </p>
-      {% endif %}
+    <section id="featured-work">
+      <h2>Stuff I’ve worked on</h2>
+      {% include featured-work.html %}
+    </section>
 
-      {% if page.side_projects %}
-        {% include sideline-work.html %}
-      {% endif %}
-    </div>
+    <section id="past-talks">
+      <h2>My past talks</h2>
+      {% include past-talks.html %}
+    </section>
+
+    <section id="contact">
+      <h2>Want to chat?</h2>
+      <div class="content">
+        <p>Feel free to send me a message at <aa href="mailto:chi.senires@gmail.com">chi.senires@gmail.com</a>!</p>
+        <p>I would love to hear from you! I’m currently free to accept side projects, either for design work or web development work, or speaking engagements related to UX design.</p>
+      </div>
+    </section>
   </body>
 </html>
