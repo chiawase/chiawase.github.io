@@ -1,0 +1,15 @@
+#_data/talks.yml
+- talk_title: Coding as a Power-up
+  date: February 4, 2021
+  location: Chiang Kai Shek College, Techlevate (online)
+  description: |
+    I shared my experience on how my background of CS helped me in my career as a UX designer, and how they could also make use of that knowledge in other industries.
+- talk_title: Things they don’t teach you when you’re starting in UX
+  date: December 4, 2020
+  location: Workbean Career fiesta 2020 (online)
+  description: |
+    I shared more about how to deal with challenges faced by UX Designers and other practical advice in the industry.
+# - talk_title: 
+#   date: 
+#   location: 
+#   description:
