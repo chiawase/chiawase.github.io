@@ -8,7 +8,7 @@
     </div>
     <a href="{{ project.url }}" class="project-link" target="_blank">{{ project.url }}</a>
     <div class="project-description">{{ project.description }}</div>
-    <img src="{% link {{project.preview_img}} %}" alt="" class="project-preview">
+    <img src="{{ project.preview_img | relative_url }}" alt="" class="project-preview">
   </div>
   {% endfor %}
 </div>
