@@ -10,13 +10,15 @@
 		{% endif %}
 	</title>
 
+	<meta itemprop="name" content="{{ site.title }} | {{ site.tagline }}">
+	<meta itemprop="description" content="{{ site.description }}">
+	<meta itemprop="image" content="{{ '/assets/preview.png' | absolute_url }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
-
-	<meta name="description" content="{{ site.description }}">
 	<link rel="canonical" href="{{ site.url }}">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="{% link assets/style.css %}">
