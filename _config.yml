@@ -1,3 +1,31 @@
-name: Chi Señires
-description: Chi Señires is a UX designer and front-end developer who likes drawing from time to time.
+title: Chi Señires
+tagline: UX designer and web developer from the Philippines
+description: Chi is a UX Designer and Front-End Web Developer from the Philippines with over 4 years of experience.
 url: https://chisenires.ph
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # all paths
+      type: "posts"
+    values:
+      layout: "article"
+      featured: "false"
+      comments: "true"
+      is_post: true
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      featured: "false"
+      is_post: true
+
+# Google Analytics
+google_analytics: UA-115634204-2
