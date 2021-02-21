@@ -130,7 +130,7 @@ h4 { font-size: var(--font-size-h4); }
 h5 { font-size: var(--font-size-h5); }
 h6 { font-size: var(--font-size-h6); }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   :root {
     /* Sizes */
     --font-size-body: 14px;
@@ -148,7 +148,7 @@ p {
   margin-bottom: 0.75rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   p {
     margin-bottom: 1rem;
   }
@@ -192,6 +192,9 @@ p {
 main.wrapper {
   padding: 4rem 10rem;
   position: relative;
+  min-width: 400px;
+  max-width: 110rem;
+  margin: 0 auto;
 }
 
 main.wrapper::after {
@@ -203,11 +206,19 @@ main.wrapper::after {
   border-left: 1px solid var(--color-accent-primary);
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 45rem) {
   main.wrapper {
     padding: 2rem;
   }
+}
 
+@media screen and (max-width: 60rem) {
   main.wrapper::after {
     display: none;
   }
@@ -225,7 +236,7 @@ main.wrapper::after {
   position: relative;
   margin-left: -3rem;
   border-radius: 25px;
-  box-shadow: var(--color-secondary-variant) 8px 8px 0 0;
+  box-shadow: var(--color-secondary-default) 8px 8px 0 0;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -271,7 +282,7 @@ main.wrapper::after {
   display: none;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   .heading-card {
     flex-direction: column;
     justify-content: center;
@@ -327,12 +338,36 @@ section .section-content {
   display: block;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   section h2 {
-    margin: 0;
+    margin: 0 auto;
     float: initial;
     width: 100%;
     top: 0;
+  }
+
+  section h2::before,
+  section h2::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 1px;
+    background-color: var(--color-accent-primary);
+    top: 50%;
+    z-index: -1;
+  }
+
+  section:nth-of-type(2) h2::before,
+  section:nth-of-type(2) h2::after {
+    width: 10%;
+  }
+  
+  section h2::before {
+    left: 0;
+  }
+
+  section h2::after {
+    right: 0;
   }
 
   section .section-content {
@@ -365,10 +400,17 @@ footer {
   height: auto;
   padding: 1rem 1.25rem;
   margin: 1.15em auto;
+}
+
+.projects .project {
+  flex: 0 1 auto;
+}
+
+.talks .talk {
   flex: 1 0 auto;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   .projects .project,
   .talks .talk {
     margin-top: 0.75rem;
@@ -409,17 +451,17 @@ footer {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   transition: var(--transition-default);
-  -webkit-transition: var(--transition-default);
-  -moz-transition: var(--transition-default);
-  -ms-transition: var(--transition-default);
-  -o-transition: var(--transition-default);
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 
 .project:hover .project-preview {
   opacity: 1;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 60rem) {
   .project .project-preview {
     opacity: 1;
   }
