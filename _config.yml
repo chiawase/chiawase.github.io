@@ -28,4 +28,4 @@ defaults:
       is_post: true
 
 # Google Analytics
-google_analytics: UA-115634204-2
+# google_analytics: UA-115634204-2
