@@ -1,5 +1,5 @@
 #_data/social-media-links.yml
-- project_name: OneLife.PH
+- name: OneLife.PH
   url: https://www.onelife.ph
   labels:
     - UX Design
@@ -7,14 +7,14 @@
   description: |
     Handled the design and most of the product management for OneLifePH, the lifestyle website of Cignal TV. Launched on January 2021.
   preview_img: assets/project-preview-01.png
-- project_name: NBA.com Philippines website
+- name: NBA.com Philippines website
   url: https://nba.smart.com.ph
   labels: 
     - web design
   description: | 
     Handled the design for the Philippine portal for the NBA.com website. Launched on February 2021.
   preview_img: assets/project-preview-02.png
-- project_name: Blake’s Wings & Steaks website
+- name: Blake’s Wings & Steaks website
   url: https://blakes.ph
   labels: 
     - web development
@@ -22,14 +22,14 @@
   description: |
     Built the website for Blake’s Wings & Steaks restaurant, as one of the clients of Cocomilk Studio.
   preview_img: assets/project-preview-03.png
-- project_name: YouTube Video End Screen Template
+- name: YouTube Video End Screen Template
   url: http://figma.fun/AmoAcR
   labels: 
     - Figma community file
   description: |
     Made a simple Figma Community File to serve as a YouTube end screen generator.
   preview_img: assets/project-preview-04.png
-# - project_name: 
+# - name: 
 #   url: 
 #   labels: 
 #   description: 
