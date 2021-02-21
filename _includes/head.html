@@ -4,33 +4,29 @@
 
 	<title>
 		{% if page.title %}
-			{{ page.title }} • {{ site.title }}
+			{{ page.title }} | {{ site.title }}
 		{% else %}
-			{{ site.title }}
+			{{ site.title }} | {{ site.tagline }}
 		{% endif %}
 	</title>
+
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
 
 	<meta name="description" content="{{ site.description }}">
 	<link rel="canonical" href="{{ site.url }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Facebook meta tags -->
-	<meta property="og:url" content="{{ site.url }}">
-	<meta property="og:description" content="{{ site.description }}">
-	<meta property="og:title" content="{{ site.title }}">
-
-	<!-- Twitter card meta tags -->
-	<meta property="twitter:url" content="{{ site.url }}">
-	<meta property="twitter:card" content="summary">
-	<meta property="twitter:title" content="{{ site.title }}">
-	<meta property="twitter:description" content="{{ site.description }}">
-
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="{% link assets/style.css %}">
 
-	<!-- Google -->
-	<meta name="google-site-verification" content="Uw4yQTrXjg0lcIDZvdmcqOJHPLs-FibdyAleA04zcgo" />
-	<meta name="google-site-verification" content="1mnCr52BrRGdSoW9I0uGSlDfjd-xtBf1hyzb37UEB0c" />
+	<!-- Favicon -->
+	<link rel="icon" href="{% link assets/chi.png %}">
+
+	{% include social.html %}
+
+	{% include analytics.html %}
 
 	<!-- Iconify -->
 	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
