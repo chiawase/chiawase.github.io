@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: https://chisenires.design//sitemap.xml
+Sitemap: https://chisenires.design/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
 Disallow: /email/
