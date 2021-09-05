@@ -1,0 +1,12 @@
+/*
+!content/
+content/*
+!content/themes/
+!content/themes/*
+!content/themes/**/*
+!.gitignore
+.DS_Store
+node_modules
+bower_components
+content/themes/casper
+content/themes/**/assets/built
