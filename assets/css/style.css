@@ -169,6 +169,10 @@ p {
   }
 }
 
+img {
+  border-radius: 8px;
+}
+
 /* add to text to set font weight to 400 */
 .highlight {
   font-weight: var(--font-weight-highlight);
@@ -1281,14 +1285,9 @@ Ghost editor. */
   background: color-mod(var(--color-2dark) l(-5%));
 }
 
-.read-more {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4vmin;
-}
 
 .read-more .read-more-heading {
-  grid-column: 1 / span 3;
+  margin-bottom: 1.5rem;
 }
 
 .read-more .post-card-title {
