@@ -38,7 +38,7 @@
   --font-size-h6: 0.75em;
   --font-size-bigger: 1.33em;
   --font-size-smaller: 0.8989em;
-
+  --p-line-height: 180%;
   /* Transitions */
   --transition-default: all 200ms ease-in-out;
 }
@@ -51,7 +51,7 @@
 
 html, body {
   color: var(--color-text);
-  font-size: 16px;
+  font-size: 18px;
   font-size: var(--font-size-body);
   font-family: var(--font-body-family);
   font-weight: var(--font-weight-body);
@@ -59,13 +59,13 @@ html, body {
 
 @media (min-width: 1024px) and (max-width: 1360px) {
   html, body {
-    font-size: calc(16px + (16 - 14) * ((100vw - 1024px) / (1360 - 1024)));
+    font-size: calc(18px + (18 - 16) * ((100vw - 1024px) / (1360 - 1024)));
   }
 }
 
 @media (min-width: 1360px) {
   html, body {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -145,7 +145,7 @@ h6 { font-size: var(--font-size-h6); }
 @media screen and (max-width: 60rem) {
   :root {
     /* Sizes */
-    --font-size-body: 14px;
+    --font-size-body: 16px;
     --font-size-h1: 2.074em;
     --font-size-h2: 1.728em;
     --font-size-h3: 1.44em;
@@ -158,7 +158,7 @@ h6 { font-size: var(--font-size-h6); }
 }
 
 p {
-  line-height: 160%;
+  line-height: var(--p-line-height);
   margin-bottom: 0.75rem;
 }
 
@@ -166,6 +166,7 @@ p {
   p {
     margin-bottom: 1rem;
     line-height: 180%;
+    font-weight: 400;
   }
 }
 
@@ -224,6 +225,11 @@ img {
   [class*="-template"] main {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .post-template main {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .home-template main::after {
@@ -452,6 +458,7 @@ footer.site-footer .inner .social-media-links {
     float: initial;
     width: 100%;
     top: 0;
+    font-size: var(--font-size-h4);
   }
 
   .home-template section h2::before,
@@ -693,6 +700,8 @@ article .article-title {
 }
 
 article .article-excerpt {
+  margin-top: 2vmin;
+  line-height: 160%;
   font-size: var(--font-size-h4);
   color: var(--color-2normal);
 }
@@ -847,6 +856,12 @@ headings, text, images and lists. We deal with cards lower down. */
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 50rem) {
+  .gh-content > * + * {
+    margin-bottom: 2vmin;
+  }
+}
+
 /* [id] represents all headings h1-h6, reset all margins */
 .gh-content > [id] {
   margin: 0;
@@ -979,8 +994,8 @@ except for when immediately preceeded by a heading */
 
 @media screen and (max-width: 70rem) {
   .kg-embed-card {
-    margin-left: -3rem;
-    margin-right: -3rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
     width: 100vw;
   }
 }
@@ -1316,9 +1331,6 @@ Ghost editor. */
 @media (max-width: 700px) {
   .read-more {
       grid-template-columns: 1fr;
-  }
-  .read-more a:nth-child(2) {
-      display: none;
   }
 }
 
