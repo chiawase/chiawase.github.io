@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://chiawase.micro.blog/2024/01/30/looking-through-google.html",
+				
+				"content_html": "<p>Looking through Google Maps now to familiarize myself with my Europe trip next week. I&rsquo;ve already gone to the Salzburg Hauptbahnhof before because I&rsquo;ve ridden the train then to go to Berlin, but now I need to figure out my route from the hbf to my hotel in Salzburg. 😆</p>\n<p>It&rsquo;s so refreshing to see wide sidewalks while tracing my route, and so many people were captured riding their bikes on Google Maps. There&rsquo;s also lots of bike parking everywhere. I&rsquo;m so excited 🤩</p>\n<p>I also learned that the inside of the hbf is included in Google Maps 😆 that&rsquo;s cool hahaha</p>\n",
+				"content_text": "Looking through Google Maps now to familiarize myself with my Europe trip next week. I've already gone to the Salzburg Hauptbahnhof before because I've ridden the train then to go to Berlin, but now I need to figure out my route from the hbf to my hotel in Salzburg. 😆\r\n\r\nIt's so refreshing to see wide sidewalks while tracing my route, and so many people were captured riding their bikes on Google Maps. There's also lots of bike parking everywhere. I'm so excited 🤩\r\n\r\nI also learned that the inside of the hbf is included in Google Maps 😆 that's cool hahaha\n",
+				"date_published": "2024-01-30T09:31:16+08:00",
+				"url": "https://chisenires.design/2024/01/30/looking-through-google.html",
+				"tags": ["cycling"]
+			},
+			{
+				"id": "http://chiawase.micro.blog/2024/01/29/even-if-i.html",
+				
+				"content_html": "<p>even if I have the keys to my unit in my hand when I go out I still have this moment where I doubt I got the correct keys 🙃</p>\n",
+				"content_text": "even if I have the keys to my unit in my hand when I go out I still have this moment where I doubt I got the correct keys 🙃\n",
+				"date_published": "2024-01-29T19:32:27+08:00",
+				"url": "https://chisenires.design/2024/01/29/even-if-i.html"
+			},
+			{
 				"id": "http://chiawase.micro.blog/2024/01/25/i-finally-have.html",
 				
 				"content_html": "<p>I finally have a few books I&rsquo;m eyeing to buy again. But this time I&rsquo;m thinking of just getting ebooks&hellip; As much as I would like a physical representation of the few books I have, part of me wonders how I&rsquo;ll go about bringing them around 🥲</p>\n",
@@ -52,7 +69,7 @@
 				"id": "http://chiawase.micro.blog/2024/01/10/whoa-microblog-ui.html",
 				
 				"content_html": "<p>Whoa. Micro.blog UI update?! 👀‼️ The sidebar&hellip;. is now to the side!!! 🤯 hahaha that surprised me 😂</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Whoa. Micro.blog UI update?! 👀‼️ The sidebar.... is now to the side!!! 🤯 hahaha that surprised me 😂\n\n<img src=\"uploads/2024/image-2024-01-10-091902909.png\" width=\"258\" height=\"600\" alt=\"Screenshot of the Micro.blog sidebar in Desktop view, which now has a darker gray background and is located at the leftmost side of the screen. Previously it had no background and was positioned to the left of the center container within the browser.\">\n",
+				"content_text": "Whoa. Micro.blog UI update?! 👀‼️ The sidebar.... is now to the side!!! 🤯 hahaha that surprised me 😂\n\n<img src=\"https://cdn.uploads.micro.blog/113466/2024/image-2024-01-10-091902909.png\" width=\"258\" height=\"600\" alt=\"Screenshot of the Micro.blog sidebar in Desktop view, which now has a darker gray background and is located at the leftmost side of the screen. Previously it had no background and was positioned to the left of the center container within the browser.\">\n",
 				"date_published": "2024-01-10T09:20:27+08:00",
 				"url": "https://chisenires.design/2024/01/10/whoa-microblog-ui.html"
 			},
