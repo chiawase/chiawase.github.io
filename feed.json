@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://chiawase.micro.blog/2024/03/06/bakit-ang-dami.html",
+				
+				"content_html": "<p>bakit ang dami kong meeting this week 😭 tawad po pls i want to actually work T___T</p>\n<p>(additional anecdote: kaya ko lang din naman dinedread mag attend sa mga meetings na &lsquo;to kasi it keeps me from doing the work I need to do&hellip; pls can people learn to write and chat more so at least discussions can also be documented 🥲)</p>\n",
+				"content_text": "bakit ang dami kong meeting this week 😭 tawad po pls i want to actually work T___T\r\n\r\n(additional anecdote: kaya ko lang din naman dinedread mag attend sa mga meetings na 'to kasi it keeps me from doing the work I need to do... pls can people learn to write and chat more so at least discussions can also be documented 🥲)\n",
+				"date_published": "2024-03-06T17:22:01+08:00",
+				"url": "https://chisenires.design/2024/03/06/bakit-ang-dami.html"
+			},
+			{
+				"id": "http://chiawase.micro.blog/2024/03/06/the-work-continues.html",
+				
+				"content_html": "<p>The work continues.</p>\n",
+				"content_text": "The work continues.\n",
+				"date_published": "2024-03-06T10:01:38+08:00",
+				"url": "https://chisenires.design/2024/03/06/the-work-continues.html"
+			},
+			{
 				"id": "http://chiawase.micro.blog/2024/03/01/been-a-few.html",
 				
 				"content_html": "<p>Been a few days since I set up my Obsidian again. 😆 Let&rsquo;s see if I can (1) keep up with this, and (2) if I can figure out the Micro.blog integration with it. :))</p>\n",
