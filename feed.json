@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://chiawase.micro.blog/2024/03/29/finally-have-time.html",
+				
+				"content_html": "<p>Finally have time to myself. I hope I actually get to do the cleaning I told everyone I was gonna do during this time. 😆</p>\n",
+				"content_text": "Finally have time to myself. I hope I actually get to do the cleaning I told everyone I was gonna do during this time. 😆\n",
+				"date_published": "2024-03-29T07:48:17+08:00",
+				"url": "https://chisenires.design/2024/03/29/finally-have-time.html"
+			},
+			{
+				"id": "http://chiawase.micro.blog/2024/03/07/hay-i-really.html",
+				
+				"content_html": "<p>Hay, I really should have bought the Meta Rayban Smart Glasses when I saw them in Austria. I just want a stylish way to record quick clips of things I see (mostly for my bike commute) and also get the bonus of not having to wear headphones if I need to listen to music or talk to someone while out.</p>\n",
+				"content_text": "Hay, I really should have bought the Meta Rayban Smart Glasses when I saw them in Austria. I just want a stylish way to record quick clips of things I see (mostly for my bike commute) and also get the bonus of not having to wear headphones if I need to listen to music or talk to someone while out.\n",
+				"date_published": "2024-03-07T07:32:26+08:00",
+				"url": "https://chisenires.design/2024/03/07/hay-i-really.html",
+				"tags": ["cycling"]
+			},
+			{
 				"id": "http://chiawase.micro.blog/2024/03/06/bakit-ang-dami.html",
 				
 				"content_html": "<p>bakit ang dami kong meeting this week 😭 tawad po pls i want to actually work T___T</p>\n<p>(additional anecdote: kaya ko lang din naman dinedread mag attend sa mga meetings na &lsquo;to kasi it keeps me from doing the work I need to do&hellip; pls can people learn to write and chat more so at least discussions can also be documented 🥲)</p>\n",
@@ -34,7 +51,7 @@
 				"id": "http://chiawase.micro.blog/2024/02/21/til-theres-support.html",
 				
 				"content_html": "<p>TIL there&rsquo;s support for even blockquotes in FigJam text 😮</p>\n<p>Discovered this while writing a shorthand guide in FigJam. I&rsquo;m surprised how fancy the block quote looks, I didn&rsquo;t expect there&rsquo;d be support for it here since usually the support is limited to just the list making and bold, italics, and maybe strikethrough. :))</p>\n<p>First thought that came to mind was, maybe you could use FigJam as a visual way to draft an article? 😆 Anyway, just sharing this nice surprise I encountered 😄</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "TIL there's support for even blockquotes in FigJam text 😮\r\n\r\nDiscovered this while writing a shorthand guide in FigJam. I'm surprised how fancy the block quote looks, I didn't expect there'd be support for it here since usually the support is limited to just the list making and bold, italics, and maybe strikethrough. :))\r\n\r\nFirst thought that came to mind was, maybe you could use FigJam as a visual way to draft an article? 😆 Anyway, just sharing this nice surprise I encountered 😄\n\n<img src=\"uploads/2024/image-2024-02-21-192303854.png\" width=\"538\" height=\"600\" alt=\"Screenshot of a written guide to using Markdown for text formatting in FigJam. The image displays a table with two columns: 'What to type' and 'Expected outcome.' It instructs users on how to create headings with '#,' bulleted lists with '-' or '*', numbered lists with '[any digit].', italicize with '-', bold with '**', strikethrough with '~', and block quotes with '>[space]'. The bottom of the image shows an example of a block quote formatting, indicating that a longer quote will be followed by a line beneath the initial quotation mark.\">\n",
+				"content_text": "TIL there's support for even blockquotes in FigJam text 😮\r\n\r\nDiscovered this while writing a shorthand guide in FigJam. I'm surprised how fancy the block quote looks, I didn't expect there'd be support for it here since usually the support is limited to just the list making and bold, italics, and maybe strikethrough. :))\r\n\r\nFirst thought that came to mind was, maybe you could use FigJam as a visual way to draft an article? 😆 Anyway, just sharing this nice surprise I encountered 😄\n\n<img src=\"https://cdn.uploads.micro.blog/113466/2024/image-2024-02-21-192303854.png\" width=\"538\" height=\"600\" alt=\"Screenshot of a written guide to using Markdown for text formatting in FigJam. The image displays a table with two columns: 'What to type' and 'Expected outcome.' It instructs users on how to create headings with '#,' bulleted lists with '-' or '*', numbered lists with '[any digit].', italicize with '-', bold with '**', strikethrough with '~', and block quotes with '>[space]'. The bottom of the image shows an example of a block quote formatting, indicating that a longer quote will be followed by a line beneath the initial quotation mark.\">\n",
 				"date_published": "2024-02-21T19:23:38+08:00",
 				"url": "https://chisenires.design/2024/02/21/til-theres-support.html"
 			},
