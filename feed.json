@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://chiawase.micro.blog/2024/11/25/even-if-im.html",
+				
+				"content_html": "<p>Even if I&rsquo;m very &ldquo;vocal&rdquo; online in terms of random musings&hellip; part of me is still scared in sharing some thoughts. Fear of judgement just kicks in too strong.</p>\n<p>I wanna fight that tendency. I want to stop shutting myself up.</p>\n",
+				"content_text": "Even if I'm very \"vocal\" online in terms of random musings... part of me is still scared in sharing some thoughts. Fear of judgement just kicks in too strong.\n\nI wanna fight that tendency. I want to stop shutting myself up.\n",
+				"date_published": "2024-11-25T23:56:33+08:00",
+				"url": "https://chisenires.design/2024/11/25/even-if-im.html"
+			},
+			{
 				"id": "http://chiawase.micro.blog/2024/11/13/i-wonder-if.html",
 				
 				"content_html": "<p>I wonder if there&rsquo;s an equivalent set of guidelines of <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a> for mobile apps? Or I guess it also applies, no? 🤔</p>\n<p>(the question also kinda extends to XR apps too, but that&rsquo;s out of <em>my</em> scope currently 😆 my work so far has me focusing on designing solutions for mobile apps, hence the question :)) )</p>\n",
